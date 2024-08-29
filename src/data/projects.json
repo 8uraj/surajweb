@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Diabetes Predictor",
+    "imageSrc": "projects/diabPred.png",
+    "description": "Web app to predict the diabetes of humans and take necessary precautions.",
+    "skills": ["Django", "Python", "Html","CSS"],
+    "demo": "",
+    "source": "https://github.com/8uraj/diabetes"
+  },
+  {
+    "title": "Go-Flix- Movie Streaming Platformn",
+    "imageSrc": "projects/goflix.png",
+    "description": "GoFlix using TMDB API, to this repository containing a fully working Netflix clone built using pure HTML, CSS, and JavaScript with a Node.js server, utilizing data from the TMDB API.",
+    "skills": ["React", "Html","CSS","JS","API"],
+    "demo": "https://goflix-ott.vercel.app/",
+    "source": "https://github.com/8uraj/GoFLix"
+  },
+  {
+    "title": "Idea-Spark Hackathon Hosting Web App",
+    "imageSrc": "projects/hackathon.png",
+    "description": "IdeaSpark is a full-stack web application aimed at sparking creativity and collaboration by providing a platform for users to share and explore ideas. Whether you're organizing a hackathon or looking to participate, IdeaSpark has got you covered.",
+    "skills": ["Node", "React", "Html", "Css"],
+    "demo": "https://idea-spark.vercel.app",
+    "source": "https://github.com/8uraj/Ideaspark_web"
+  },
+  {
+    "title": "Chat Bot for Health Help",
+    "imageSrc": "projects/chatbot.png",
+    "description": "Build the AI chat bot for Health help",
+    "skills": ["Python", "Flask", "Mysql","HTML","CSS"],
+    "demo": "",
+    "source": "https://github.com/8uraj/AI_chatbot"
+  },
+  
+  
+    {
+    "title": "Online Course Registraton",
+    "imageSrc": "projects/ecom.png",
+    "description": "Online course registration by using html,css,js,and php and final year and engineering project UI part with Html,css,php,bootstrap and mysql database",
+    "skills": ["PHP","AJAX", "JS", "Mysql","HTML","CSS"],
+    "demo": "",
+    "source": "https://github.com/8uraj/online-course-registration"
+  }
+
+]
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.projects {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.slick_slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+

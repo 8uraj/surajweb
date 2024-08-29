@@ -1,0 +1,29 @@
+[
+  {
+    "role": "AWS Cloud Intern",
+    "organisation": " EduSkills Foundation",
+    "startDate": "Dec, 2023",
+    "endDate": "Mar, 2024",
+    "experiences": ["Worked on AWS", "Load Blancer, Web Designing, Collaboration"],
+    "imageSrc": "history/eduskill.png"
+  },
+  {
+    "role": "SDE Intern",
+    "organisation": "Prodigy Infotech",
+    "startDate": "Oct, 2023",
+    "endDate": "Nov, 2023",
+    "experiences": ["Advanced Full Stack Task"],
+    "imageSrc": "history/logo.png"
+  },
+  {
+    "role": "Freelancing",
+    "organisation": "Student",
+    "startDate": "Aug, 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Dynamic web apps",
+      "Designed databases, implemented RESTful APIs"
+    ],
+    "imageSrc": "history/freelance.png"
+  }
+]

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Laptop Table Set
+* source:	https://sketchfab.com/3d-models/laptop-table-set-f487ff6c506842ecb505b47ff3e0b100
+* author:	yankobe (https://sketchfab.com/yankobe.do)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Laptop Table Set" (https://sketchfab.com/3d-models/laptop-table-set-f487ff6c506842ecb505b47ff3e0b100) by yankobe (https://sketchfab.com/yankobe.do) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

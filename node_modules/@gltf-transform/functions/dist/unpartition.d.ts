@@ -1,0 +1,21 @@
+import type { Transform } from '@gltf-transform/core';
+export interface UnpartitionOptions {
+}
+/**
+ * Removes partitions from the binary payload of a glTF file, so that the asset
+ * contains at most one (1) `.bin` {@link Buffer}. This process reverses the
+ * changes from a {@link partition} transform.
+ *
+ * Example:
+ *
+ * ```ts
+ * document.getRoot().listBuffers(); // → [Buffer, Buffer, ...]
+ *
+ * await document.transform(unpartition());
+ *
+ * document.getRoot().listBuffers(); // → [Buffer]
+ * ```
+ *
+ * @category Transforms
+ */
+export declare function unpartition(_options?: UnpartitionOptions): Transform;

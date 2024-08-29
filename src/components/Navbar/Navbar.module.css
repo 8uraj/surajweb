@@ -1,0 +1,118 @@
+@import "../../vars.css";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px; /* Adjust the width as needed */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other elements */
+  padding-top: 20px; /* Add some padding if needed */
+  background: none; /* Remove background */
+}
+
+.title {
+  color: black; /* Adjust the color as needed */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 0;
+  position: absolute;
+
+}
+
+.menuBtn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 20px;
+  display: none; /* Hide the menu button for larger screens */
+}
+
+.menuItems {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+}
+
+.menuOpen {
+  display: flex;
+}
+
+.menuItems li {
+  margin: 10px 0;
+}
+
+.menuItems a {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.back_to_top_button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%; /* Make navbar full width */
+    height: auto; /* Auto height */
+    flex-direction: row; /* Horizontal direction */
+    justify-content: space-between; /* Space between items */
+    padding: 10px 20px; /* Padding for smaller screens */
+    margin: 1rem;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+
+  .menuBtn {
+    display: block; /* Show the menu button for smaller screens */
+  }
+
+  .menuItems {
+    display: none; /* Hide menu items by default on mobile */
+  }
+
+  .menuOpen {
+    display: flex; /* Show menu items when menu is open */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+  }
+
+
+}

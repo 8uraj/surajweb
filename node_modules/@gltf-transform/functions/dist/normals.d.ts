@@ -1,0 +1,20 @@
+import type { Transform } from '@gltf-transform/core';
+/** Options for the {@link normals} function. */
+export interface NormalsOptions {
+    /** Whether to overwrite existing `NORMAL` attributes. */
+    overwrite?: boolean;
+}
+/**
+ * Generates flat vertex normals for mesh primitives.
+ *
+ * Example:
+ *
+ * ```ts
+ * import { normals } from '@gltf-transform/functions';
+ *
+ * await document.transform(normals({overwrite: true}));
+ * ```
+ *
+ * @category Transforms
+ */
+export declare function normals(_options?: NormalsOptions): Transform;

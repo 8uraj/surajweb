@@ -1,0 +1,11 @@
+:root {
+  /* Colors */
+  --color-text: #a8a8a8; /* Light gray for readable text against dark backgrounds */
+  --color-primary: #222222; /* Very dark gray for primary elements, maintaining a minimalist look */
+  --color-secondary: #444444; /* Dark gray for secondary elements to provide subtle contrast */
+  --color-accent: #555555; /* Slightly lighter gray for accents to add subtle visual interest */
+  --color-dark: #000000; /* Black for the main background, providing a strong and clean foundation */
+  --color-bg: #1a1a1a; /* Dark gray for backgrounds, adding depth while staying within the dark theme */
+
+  --font-roboto: "Roboto";
+}
